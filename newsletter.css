@@ -1,0 +1,35 @@
+newsletter {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .letter{
+    color: rgb(3, 43, 28);
+    font-size: 18px;
+  }
+  
+  .newsletter h3 {
+    margin-bottom: 10px;
+  }
+  
+  #newsletterForm {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #7eb299;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,354 @@
+/* Homepage styling */
+
+@media(min-width: 700px) and (max-width: 1700px){
+body{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(142, 197, 152, 0.65),rgba(224, 236, 227, 0.65)), url(imgfolder/trees.jpg);
+    background-size: cover;
+    background-position : center;
+    padding: 10px 10%;
+}
+
+/* Resetting default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the navbar for all pages */
+.nav{
+    display: inline-block;
+    padding: 12px;
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 18px;
+
+}
+.navbar {
+  overflow: hidden;
+  
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar a:link{
+    color: white;
+}
+
+.navbar a:hover{
+    color: green;
+    background-color: rgb(199, 214, 156);
+    padding: 15px;
+}
+
+.navbar a:visited{
+    color: rgb(156, 183, 133);
+}
+nav ul li{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logohome{
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: black;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.logoandnav{
+    box-sizing: border-box;
+    width: auto; 
+    height: 90px; 
+    background-color: rgb(36, 51, 33);
+  }
+   
+  .logosize{
+      cursor:pointer;
+      width:100px;
+      height:100px;
+      text-align: left;
+      margin-left: 10px;
+  }
+  .diversity{
+    width: 100%;
+    height: 800px;
+}
+
+
+.h2{
+    text-align: center;
+    color: rgb(3, 51, 34);
+    padding: 15px;
+    width: 100%;
+    background-color: rgba(62, 120, 77, 0.415);
+    
+}
+.h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(3, 49, 33);
+    padding: 10px;
+    background-color: rgb(112, 138, 85);
+}
+
+
+  .endemicimg{
+    width: 70%;
+    height: 460px;
+    padding: 8px;
+    margin-left: 20%;
+  }
+  
+  .parahome {
+    width:80%;
+    position: absolute;
+    color: #fffcfc; 
+    font-size: 18px; 
+    text-align: center;
+    opacity:0.8;
+    margin-top: 8%;
+    margin-left: 20%;
+    font-weight: bold;
+  }
+  .parashome{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    width:fit-content;
+    font-weight: bold;
+    margin-left:  20px;
+    margin-right: 20px;
+    
+}
+.bullets{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.conservimg{
+    width: 75%;
+    height: 460px;
+    padding: 8px;
+    margin-left: 13%;
+}
+footer {
+  background-color: #7d9a7c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+  
+/*Department of wildlife conservation*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .item h3 {
+    margin-top: 5px;
+  }
+  .depmap{
+    padding: 10px;
+    background-color: rgb(226, 221, 221);
+  }
+  
+
+
+/*Sri Lankan leopard*/
+.threats{
+    width: 700px;
+    height: 490px;
+    margin-left: 29%;
+}
+.habitatdef{
+    
+    padding: 10px;
+    background-color: rgb(81, 104, 83);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.parashome1{
+  font-size: 23px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+.p{
+  font-size: 18px;
+  padding: 10px;
+}
+.link{
+  text-align: center;
+    font-size: 24px;
+    color: rgb(29, 43, 153);
+    padding: 10px;
+    background-color: rgb(199, 233, 228);
+    
+}
+
+
+  
+/*animals styling*/
+
+.animals{
+    width:500px;
+    height: 350px;
+    padding: 15px;
+    background-color: rgb(105, 114, 102);
+    margin-left: 10px;
+    }
+.para{
+    width: 50%;
+    margin-top: 3%;
+    margin-right: 7%;
+    font-size: 18px;
+    background-color: rgba(92, 105, 96, 0.65);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    padding-top: 10px;
+}
+.flexbox1{
+    display: flex;
+    justify-content: space-between;
+}
+.clicklink img{
+width: 400px;
+height: 350px;
+margin-left: 10%;
+margin-bottom: 15px;
+padding: 10px;
+background-color: rgba(92, 105, 96, 0.65);
+}
+.linkphrase{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+}
+
+/*Sri Lankan wildlife introduction*/
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 3px solid #000000;
+  }
+  
+  table th {
+    background-color: #cad3ce;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #d0cdcd;
+  }
+  
+  table tbody tr:hover {
+    background-color: #ddd;
+  }
+  .location {
+    margin-bottom: 50px;
+  }
+  
+  
+  .textintro{
+    font-size: 18px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .map {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .map img {
+    max-width: 100%;
+  }
+  
+  .description {
+    padding: 0 20px;
+    text-align: justify;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .images img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: auto;
+  }
+
+  .areas{
+    width: 500px;
+    height: 400px;
+  }
+  .areas1{
+    width: 600px;
+    height: 400px;
+  }
+  .h{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(3, 49, 33);
+    padding: 10px;
+    background-color: rgb(153, 171, 134);
+  }
+
+
+
+
+
+/*--media query--*/
+@media all and (max-width: 480px) {
+    img{
+        width: 100%
+    }
+}
+}
+
+
+
+
+
+
+ 
+

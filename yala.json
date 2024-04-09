@@ -1,0 +1,51 @@
+{
+  "main": {
+    "intro": {
+      "h2": {
+        "class": "h2",
+        "content": "About Yala National Park"
+      },
+      "paragraph": {
+        "class": "parashome",
+        "content": "Yala National Park is the most visited and second largest national park in Sri Lanka. Yala National Park covers an area of approximately 979 square kilometers and is situated in the southeastern corner of Sri Lanka, spanning parts of the Hambantota and Monaragala districts. The park is characterized by a diverse landscape, including scrub jungle, dry grasslands, rocky outcrops, and coastal lagoons."
+      },
+      "image": {
+        "class": "yalaimg",
+        "src": "./places/yala pic 1.jpg",
+        "alt": "Yala National Park"
+      }
+    },
+    "animals": {
+      "h2": {
+        "class": "h2",
+        "content": "Wildlife in Yala"
+      },
+      "paragraph": {
+        "class": "parashome",
+        "content": "Yala is renowned for its variety of wildlife including leopards, elephants, and birds. Yala is celebrated for its rich biodiversity and is home to a wide variety of wildlife species. The park's most iconic inhabitants are the Sri Lankan leopard, which has one of the highest leopard densities in the world. Other prominent wildlife species include Asian elephants, sloth bears, water buffalo, spotted deer, sambar deer, crocodiles, and a plethora of bird species such as painted storks, crested serpent eagles, and peafowl."
+      },
+      "image": {
+        "class": "yalaimg",
+        "src": "./places/yala elephants.jpg",
+        "alt": "Wildlife in Yala"
+      }
+    },
+    "activities": {
+      "h2": {
+        "class": "h2",
+        "content": "Activities"
+      },
+      "paragraph": {
+        "class": "parashome",
+        "content": "Yala National Park offers a range of activities for visitors to explore its natural wonders and wildlife:"
+      },
+      "activitiesList": [
+        "Jeep Safaris: Jeep safaris are the primary way to explore the park, allowing visitors to venture deep into its wilderness and have close encounters with wildlife. Experienced guides lead safaris, enhancing the chances of spotting elusive animals like leopards.",
+        "Bird Watching: Yala is a paradise for bird watchers, with over 200 bird species recorded within the park. Visitors can observe a diverse array of resident and migratory birds, making it a birding hotspot.",
+        "Nature Walks: Guided nature walks provide visitors with a more intimate experience of the park's flora and fauna. Knowledgeable naturalists lead informative walks through designated trails, offering insights into the park's ecology and wildlife.",
+        "Camping: Some areas of the park allow for camping, providing visitors with the opportunity to spend a night under the stars amidst the sights and sounds of the jungle.",
+        "Overall, Yala National Park offers an unforgettable wildlife experience, with its stunning landscapes, diverse wildlife, and a range of activities making it a must-visit destination for nature enthusiasts and wildlife lovers alike."
+      ]
+    }
+  }
+}

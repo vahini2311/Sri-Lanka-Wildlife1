@@ -1,0 +1,22 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <form id="loginForm" x-data="logindata">
+        <h2 id="logintitle">User login</h2>
+        <input x-model="uname" type="text" id="username" placeholder="Username"><br>
+        <input x-model="pword" type="password" id="password" placeholder="Password"><br>
+        <button @click="login" type="button">Login</button>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
+
+

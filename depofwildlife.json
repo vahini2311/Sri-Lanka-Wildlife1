@@ -1,0 +1,48 @@
+{
+  "main": {
+    "paragraphs": [
+      {
+        "class": "parashome",
+        "content": "The Department of Wildlife Conservation in Sri Lanka serves as the primary authority responsible for the protection, management, and conservation of the island's diverse wildlife and natural habitats. Established in 1949, it plays a crucial role in safeguarding the country's rich biodiversity, which includes endemic species like the Sri Lankan elephant and leopard. The department oversees a network of national parks, wildlife reserves, and sanctuaries, providing essential habitat protection and promoting eco-tourism and research. Through rigorous enforcement of wildlife laws, habitat restoration initiatives, and community engagement programs, the department strives to ensure the sustainable coexistence of humans and wildlife, preserving Sri Lanka's natural heritage for future generations."
+      },
+      {
+        "class": "parashome",
+        "content": "There are four biosphere reserves declared under UNESCO's Man and Biosphere Reserve Programme. Those are Bundala, Hurulu, Kanneliya-Dediyagala-Nakiyadeniya (KDN) and Sinharaja.Yala, Wilpattu, Horton plains and Udawalawa are the most visited national parks of the country."
+      }
+    ],
+    "gallery": {
+      "id": "gallery1",
+      "items": [
+        {
+          "img": "./dep/3.webp",
+          "alt": "National Park 1",
+          "title": "Udawalawe National Park"
+        },
+        {
+          "id": "gallery2",
+          "img": "./dep/4.webp",
+          "alt": "National Park 2",
+          "title": "Minneriya National Park"
+        },
+        {
+          "id": "gallery3",
+          "img": "./dep/5.jpg",
+          "alt": "Wildlife Sanctuary 1",
+          "title": "Sinharaja Forest Reserve"
+        }
+      ]
+    },
+    "map": {
+      "iframe": {
+        "class": "depmap",
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126750.26391142985!2d79.78796976249998!3d6.897092700000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1709034196713!5m2!1sen!2slk",
+        "width": 600,
+        "height": 450,
+        "style": "border:0;",
+        "allowfullscreen": true,
+        "loading": "lazy",
+        "referrerpolicy": "no-referrer-when-downgrade"
+      }
+    }
+  }
+}

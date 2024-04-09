@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yala</title>
+  <link rel="stylesheet" href="./css files/yala.css">
+  <script src="newsletter.js"></script>
+  <script src="yala.js"></script>
+  <link rel="stylesheet" href="newsletter.css">
+</head>
+<body>
+  
+  
+  
+    <header class="logoandnav"> <!--Navigation bar-->
+      <a href="./"> <img class="logosize" src=".//imgfolder/final logo.png" alt="logo" class="logohome"></a>
+      <nav>
+              <ul class="navbar">
+                <li class="nav"><a href="index2.html" alt="image" >Home</a></li>
+                <li class="nav"><a href="wildlife intro2.html" alt="image" >About Wildlife</a></li>
+                <li class="nav"><a href="depofwildlife2.html" alt="image" >Department of Wildlife Conservation</a></li>
+                <li class="nav"><a href="leopard2.html" alt="image" >Sri Lankan Leopard</a></li>
+                <li class="nav"><a href="Animals2.html" alt="image">Animals </a></li>
+                <li class="nav"><a href="login.html" alt="image">Logout</a></li>
+                <button id="saveButton">Save</button>
+              </ul>
+      </nav>
+     
+      </header>
+      <h1 class="h1">Welcome to Yala National Park</h1>
+      <div contenteditable="true" id="contenteditable">
+      <main>
+        
+          <section id="intro">
+            <h2 class="h2"></h2>
+            <p class="parashome"></p>
+            <img class="yalaimg" src="" alt="">
+          </section>
+          <section id="animals">
+            <h2 class="h2"></h2>
+            <p class="parashome"></p>
+            <img class="yalaimg" src="" alt="">
+          </section>
+          <section id="activities">
+            <h2 class="h2"></h2>
+            <p class="parashome"></p>
+            <ul id="activitiesList"></ul>
+          </section>
+     
+    </main>
+
+    <script>
+      document.getElementById('saveButton').addEventListener('click', function() {
+    var content = document.getElementById('contenteditable').innerHTML;
+    saveContentToLocalStorage(content);
+    alert('Content saved successfully!');
+    });
+    
+    function saveContentToLocalStorage(content) {
+    localStorage.setItem('contenteditable', content);
+    }
+    
+    // Load content from Local Storage when the page loads
+    window.onload = function() {
+    let storedContent = localStorage.getItem('contenteditable');
+    if (storedContent) {
+    document.getElementById('contenteditable').innerHTML = storedContent;
+    }
+    };
+    </script>
+    <script>
+    document.getElementById('saveButton').addEventListener('click', function() {
+    var content = document.getElementById('editableContent').innerHTML;
+    saveContentToLocalStorage(content);
+    alert('Content saved successfully!');
+    });
+    
+    function saveContentToLocalStorage(content) {
+    localStorage.setItem('editableContent', content);
+    }
+    
+    // Load content from Local Storage when the page loads
+    window.onload = function() {
+    let storedContent = localStorage.getItem('editableContent');
+    if (storedContent) {
+    document.getElementById('editableContent').innerHTML = storedContent;
+    }
+    };
+    </script>
+    <footer>
+      
+        <div class="newsletter">
+          <h8 class="letter">Subscribe to Our Newsletter</h8>
+          <form id="newsletterForm">
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+          </form>
+      </div>
+      
+        <p >© 2024 Yala National Park</p>
+    </footer>
+</body>
+</html>

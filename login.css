@@ -1,0 +1,69 @@
+/* login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(imgfolder/login.jpg); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    height: 100vh;
+}
+
+#loginForm {
+    background-color: #61705d; /* White */
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center; /* Center align content */
+    margin-left: 20px; /* Adjust margin to position the form */
+}
+
+#loginForm h2 {
+    margin-bottom: 20px; /* Add spacing below the title */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc; /* Light gray */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #153015; /* Green */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #57955a; /* Darker green */
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #999; /* Light gray */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #4CAF50; /* Green */
+    box-shadow: 0px 0px 5px rgba(76, 175, 80, 0.5); /* Green shadow */
+}

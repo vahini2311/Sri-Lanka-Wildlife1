@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Admin Dashboard</title> 
+
+    <style>  
+
+
+    </style>
+</head> 
+<header>
+    <div class="logo"> <a href="index.html"> <img src="Images/Logo.png"> </a> </div>
+    
+        <div class="navbar">
+           
+            
+            <a href="index.html">Home</a>
+            <a href="Sri Lankan Wildlife introduction.html">Introduction</a>
+            <a href="Department of Wildlife conservation.html">Department</a>
+            <a href="Srilankan leopard.html">Leopard</a>
+            <a href="Animals.html">Animals</a>
+            <a href="Yala.html">Yala National Park</a>
+            <a href="Wilpattu.html">Wilpattu National Park</a>
+            
+        </div>
+    
+</header>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Admin Dashboard</h1>
+    </div>
+    
+    <div class="section">
+        <div class="section-header">Newsletter Subscriptions</div>
+        <div class="newsletter-subscriptions" id="newsletterSubscriptions">
+            <!-- Subscription list will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Add more sections as needed -->
+
+    <div class="footer">
+        &copy; 2022 Admin Dashboard
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Retrieve newsletter subscriptions from local storage
+        const subscriptions = JSON.parse(localStorage.getItem("newsletterEmails"));
+
+        // Get the container for displaying subscriptions
+        const subscriptionsContainer = document.getElementById("newsletterSubscriptions");
+
+        // Check if there are subscriptions to display
+        if (subscriptions && subscriptions.length > 0) {
+            // Create a list to display subscriptions
+            const subscriptionList = document.createElement("ul");
+
+            // Loop through each subscription and create list items
+            subscriptions.forEach(function(email) {
+                const listItem = document.createElement("li");
+                listItem.textContent = email;
+                subscriptionList.appendChild(listItem);
+            });
+
+            // Append the subscription list to the container
+            subscriptionsContainer.appendChild(subscriptionList);
+        } else {
+            // If there are no subscriptions, display a message
+            subscriptionsContainer.textContent = "No newsletter subscriptions found.";
+        }
+    });
+</script>
+
+<script>
+    // Admin JavaScript logic goes here
+    // Check if the current user is an admin
+    const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+    if (currentUser && currentUser.role === 'admin') {
+        // Add the admin link to the footer
+        const footer = document.querySelector('.footer');
+        const adminLink = document.createElement('a');
+        adminLink.href = 'adashboard.html'; // Update the href to point to the admin page
+        adminLink.textContent = 'Admin dashboard'; // Change the link text if needed
+        footer.appendChild(adminLink);
+    }
+</script>
+
+</body>
+</html>

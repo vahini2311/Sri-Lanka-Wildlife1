@@ -1,0 +1,24 @@
+{
+  "main": {
+    "intro": {
+      "h2": "About Wilpattu National Park",
+      "parashome": "Wilpattu National Park, situated in Sri Lanka's North Western Province, is the country's largest national park, covering approximately 1,317 square kilometers. It is renowned for its diverse ecosystems, ranging from dry tropical forests to wetlands, and its rich biodiversity.",
+      "img": {
+        "src": "places/Wilpattu-National-Park-gallery-pop-up-(2)-min.jpg",
+        "alt": "Wilpattu National Park"
+      }
+    },
+    "animals": {
+      "h2": "Wildlife in Wilpattu",
+      "parashome": "The park is home to a wide array of wildlife species, including the elusive Sri Lankan leopard, which is one of its main attractions. Other notable species include elephants, sloth bears, water buffalo, spotted deer, sambar deer, and a plethora of bird species such as painted storks, white ibis, and peafowl. The park's varied habitats support a thriving ecosystem, making it a paradise for nature enthusiasts and wildlife photographers.",
+      "img": {
+        "src": "places/WilpattuNationalPark-April2014_(3).jpg",
+        "alt": "Wildlife in Wilpattu"
+      }
+    },
+    "activities": {
+      "h2": "Activities",
+      "parashome": "Tourists visiting Wilpattu National Park can engage in various activities to explore its natural wonders: Jeep Safaris, Bird Watching, Nature Walks, Camping. Overall, Wilpattu National Park offers a captivating blend of natural beauty and wildlife diversity, providing visitors with unforgettable experiences and a deeper appreciation for Sri Lanka's natural heritage."
+    }
+  }
+}

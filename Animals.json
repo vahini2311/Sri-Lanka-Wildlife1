@@ -1,0 +1,51 @@
+{
+  "main": {
+    "flexboxes": [
+      {
+        "image": "./animals/junglefowl.jpg",
+        "alt": "animals",
+        "text": "The Sri Lankan Jungle fowl (Gallus lafeyetii) was first described in 1831 by Lesson and is a member of the family Gallus, the same family as the domestic chicken. The ancestor to all domestic chickens is the Red Jungle fowl (Gallus gallus). It has the distinct honor of being the national bird of Sri Lanka and is depicted in postage stamps etc. There are 4 species of Gallus so far recorded from Asia. The Red jungle fowl (Gallus gallus), the Grey jungle fowl (Gallus sonneratii), the green jungle fowl (Gallus varius) and the Sri Lankan jungle fowl (Gallus lafeyetii). The Sri Lanka Jungle fowl is endemic to Sri Lanka, and is not found anywhere else in the world.Due to habitat loss and hunting pressures, the Sri Lankan Junglefowl faces conservation challenges, with efforts underway to protect its remaining habitats and raise awareness about its significance in the island's biodiversity. Conservation initiatives include establishing protected areas, implementing sustainable land management practices, and promoting community involvement in conservation efforts."
+      },
+      {
+        "image": "./animals/lion.jpg",
+        "alt": "animals",
+        "text": "Some researchers believe that lions were indeed native to Sri Lanka and evolved into a distinct subspecies known as Panthera Leo Sinhaleyus, often referred to as the Ceylon lion.The Sri Lankan lion is now considered extinct. The last reliable record of a Sri Lankan lion dates back to the 19th century.The association between lions and Sri Lankan royalty is deeply ingrained in the country’s history and is still celebrated today. Despite their extinction, the legacy of the Sri Lankan lion lives on through national emblems, flags, and heraldry, serving as a poignant reminder of the island's rich natural heritage. Efforts to conserve and commemorate the memory of the Ceylon lion continue through educational programs, wildlife advocacy, and the preservation of historical artifacts associated with these magnificent creatures."
+      },
+      {
+        "image": "./animals/grey hornbill.jpg",
+        "alt": "animals",
+        "text": "The Sri Lanka Grey Hornbill (Ocyceros gingalensis) was first described in 1811 by Shaw. It is a member of the family Bucerotidae (Hornbills). Hornbills are a family of tropical near-passerine birds found in the Old World.It has an island wide distribution, in forested areas in the wet zone and riverine forest patches in the dry zone. The grey hornbill is frequently found in home gardens, bordering forested areas. Despite their adaptability to human-altered landscapes, habitat loss and fragmentation pose significant threats to the long-term survival of Sri Lanka's Grey Hornbill populations. Conservation efforts focus on habitat restoration, community education, and the establishment of protected areas to safeguard their remaining habitats and ensure the continued presence of these charismatic birds in Sri Lanka's biodiversity."
+      },
+      {
+        "image": "./animals/purple faced.jpg",
+        "alt": "animals",
+        "text": "The Purple-faced Langur (Trachypithecus vetulus), also known as the Purple-faced leaf monkey, is a long-tailed arboreal monkey endemic to Sri Lanka. This folivorous species normally has a social system consisting of one resident adult male (Harem), 1-7 adult females and a varying amount of juveniles and infants.The Purple-faced Langur is a folivorous species, but has also been known to eat fruit, flowers and seeds. This species prefers immature leaves because they are high in protein and low in lignin.This species plays a vital role in seed dispersal and forest regeneration, as its feeding habits contribute to the maintenance of plant diversity. However, like many other primates, the Purple-faced Langur faces threats from habitat loss, fragmentation, and human-wildlife conflict, necessitating conservation efforts to ensure its survival."
+      },
+      {
+        "image": "./animals/bluemagpie.jpg",
+        "alt": "animals",
+        "text": "The Sri Lanka Blue Magpie (Urocissa ornate) was first described in 1829 by Wagler and is a member of the crow family the Corvidae. Crows, ravens, rooks, jackdaws, jays, magpies, treepies, choughs and nutcrackers all belong to this family. Birds in the family Corvidae are considered the most intelligent birds in the world.It is found in the wet zone and upper montane regions of the island; however they are not found from the highest peaks. This avian species exhibits a complex social structure, often living in family groups consisting of a breeding pair and their offspring. They are known for their intelligence and problem-solving abilities, traits commonly associated with birds in the corvid family."
+      },
+      {
+        "image": "./animals/civet.jpg",
+        "alt": "animals",
+        "text": "The golden palm civet (Paradoxurus zeylonensis ) is a palm civet endemic to Sri Lanka. It is listed as Vulnerable on the IUCN Red List. Its distribution is severely fragmented, and the extent and quality of its habitat in Sri Lanka's hill regions are declining.The golden palm civet inhabits lowland rain forest, montane evergreen forests, and also dense monsoon forest. The golden palm civet (Paradoxurus zeylonensis ) is a palm civet endemic to Sri Lanka. It is listed as Vulnerable on the IUCN Red List. Its distribution is severely fragmented, and the extent and quality of its habitat in Sri Lanka's hill regions are declining.The golden palm civet inhabits lowland rain forest, montane evergreen forests, and also dense monsoon forest."
+      }
+    ],
+    "linkphrase": "Click on the two national parks to visualise the beauty of wildlife at its natural habitat.",
+    "links": [
+      {
+        "href": "./yala.html",
+        "target": "_blank",
+        "image": "./animals/yala entrance.jpg",
+        "alt": "Yala National Park Link"
+      },
+      {
+        "href": "./Wilpattu.html",
+        "target": "_blank",
+        "image": "./animals/wil entrance.webp",
+        "alt": "Wilpattu National Park Link"
+      }
+    ]
+  }
+}
